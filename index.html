@@ -3,59 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>News2 TamilNadu</title>
+<title>NEWS2 TAMILNADU</title>
+
 <style>
-body{margin:0;font-family:Arial;background:#f5f5f5}
-header{background:#d60000;color:white;padding:20px;text-align:center}
-.menu{background:#222;padding:10px;text-align:center}
-.menu a{color:white;text-decoration:none;margin:10px}
-.breaking{background:yellow;color:red;padding:10px;font-weight:bold}
-.news{max-width:1000px;margin:auto;padding:20px}
-.card{background:white;padding:15px;margin:15px 0;border-radius:10px;box-shadow:0 0 5px #ccc}
-footer{background:#222;color:white;text-align:center;padding:15px}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#c40000;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+font-size:20px;
+}
+
+nav{
+background:#222;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+font-weight:bold;
+}
+
+.breaking{
+background:yellow;
+color:red;
+padding:12px;
+font-size:22px;
+font-weight:bold;
+overflow:hidden;
+white-space:nowrap;
+}
+
+.news-container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.news-card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+.news-card img{
+width:100%;
+border-radius:10px;
+}
+
+.news-card h2{
+font-size:32px;
+}
+
+.youtube{
+text-align:center;
+background:white;
+padding:20px;
+border-radius:12px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:green;
+color:white;
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
 </style>
 </head>
+
 <body>
 
 <header>
 <h1>NEWS2 TAMILNADU</h1>
-<p>தமிழக செய்திகள் • அரசியல் • உடனடி தகவல்கள்</p>
+<p>தமிழக செய்திகள் • அரசியல் • உள்ளூர் தகவல்கள்</p>
 </header>
 
-<div class="menu">
+<nav>
 <a href="#">முகப்பு</a>
 <a href="#">தமிழகம்</a>
 <a href="#">அரசியல்</a>
-<a href="#">சென்னை</a>
 <a href="#">வீடியோக்கள்</a>
-</div>
+<a href="#">தொடர்பு</a>
+</nav>
 
 <div class="breaking">
-🚨 BREAKING NEWS : உடனடி செய்திகள் இங்கே...
+<marquee>
+🚨 BREAKING NEWS : தமிழகத்தின் முக்கிய செய்திகள் உடனுக்குடன்...
+</marquee>
 </div>
 
-<div class="news">
+<div class="news-container">
 
-<div class="card">
+<div class="news-card">
+<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c">
 <h2>முக்கிய செய்தி</h2>
-<p>உங்கள் முதல் செய்தியை இங்கே பதிவு செய்யலாம்.</p>
+<p>உங்கள் முக்கிய செய்தியை இங்கே பதிவிடலாம்.</p>
 </div>
 
-<div class="card">
-<h2>அரசியல் செய்திகள்</h2>
-<p>தமிழக அரசியல் தொடர்பான செய்திகள்.</p>
-</div>
-
-<div class="card">
-<h2>YouTube Channel</h2>
-<p>உங்கள் YouTube வீடியோக்களை இங்கே சேர்க்கலாம்.</p>
-</div>
-
-</div>
-
-<footer>
-© 2026 News2 TamilNadu - All Rights Reserved
-</footer>
-
-</body>
-</html>
+<div class="news-card">
